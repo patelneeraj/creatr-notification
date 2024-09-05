@@ -1,4 +1,4 @@
-# Problem Statement: Notification System for Project Management Platform
+# Problem Statement: Notification System for Creatr
 
 ## Background
 
