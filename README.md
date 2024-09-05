@@ -34,3 +34,13 @@ Develop a comprehensive notification system for our project management platform,
 3. Filtering and Sorting
    - Allow users to filter notifications by project type, priority, or status
    - Implement sorting options (e.g., by time, priority)
+
+Basic Notification Format:
+
+```json
+{
+	message: string;
+	url: string;
+	details: string;
+}
+```
