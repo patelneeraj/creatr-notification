@@ -1,0 +1,76 @@
+.notification-display {
+  font-family: Arial, sans-serif;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.controls {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.notification-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.notification-item {
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.notification-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.project-type {
+  font-weight: bold;
+}
+
+.priority {
+  padding: 2px 5px;
+  border-radius: 3px;
+  font-size: 0.8em;
+}
+
+.priority-1 {
+  background-color: #e0f0e0;
+  color: #006400;
+}
+.priority-2 {
+  background-color: #fff0e0;
+  color: #8b4513;
+}
+.priority-3 {
+  background-color: #ffe0e0;
+  color: #8b0000;
+}
+.priority-4 {
+  background-color: #ffe0e0;
+  color: #8b0000;
+}
+.priority-5 {
+  background-color: #ffe0e0;
+  color: #8b0000;
+}
+
+.notification-body {
+  margin-top: 5px;
+}
+
+.message {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.details,
+.project-id {
+  font-size: 0.9em;
+  color: #666;
+  margin: 2px 0;
+}
